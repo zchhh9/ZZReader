@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManTopicMainActivity"
+    style="@style/Mytext"
+    android:background="@android:color/white"
+    android:id="@+id/drawer2">
+
+    <ImageView
+        android:id="@+id/imageViewm"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/man" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/god"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="44dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewm">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="90dp"
+                android:padding="3dp"
+                android:src="@drawable/god"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="武侠仙侠"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1px"
+                android:layout_marginTop="1dp"
+                android:background="#D3D3D3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Martial arts and Immortal Xia"
+                android:textColor="#A9A9A9"
+                android:textSize="8dp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/two"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="@+id/god"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/god"
+        app:layout_constraintTop_toTopOf="@+id/god">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="90dp"
+                android:padding="3dp"
+                android:src="@drawable/ghos"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="二次元"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1px"
+                android:layout_marginTop="1dp"
+                android:background="#D3D3D3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Two dimensions"
+                android:textColor="#A9A9A9"
+                android:textSize="8dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/urban"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/god"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="90dp"
+                android:padding="1dp"
+                android:src="@drawable/urban"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="都市娱乐"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1px"
+                android:layout_marginTop="1dp"
+                android:background="#D3D3D3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Urban Entertainment"
+                android:textColor="#A9A9A9"
+                android:textSize="8dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/game"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/god">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="90dp"
+                android:padding="1dp"
+                android:src="@drawable/game"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="科幻游戏"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1px"
+                android:layout_marginTop="1dp"
+                android:background="#D3D3D3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Science fiction games"
+                android:textColor="#A9A9A9"
+                android:textSize="8dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/war"
+        android:layout_width="376dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toEndOf="@+id/two"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/god"
+        app:layout_constraintTop_toBottomOf="@+id/game">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:padding="1dp"
+                android:src="@drawable/war"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="历史军事"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="1px"
+                android:layout_marginTop="1dp"
+                android:background="#D3D3D3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="History military"
+                android:textColor="#A9A9A9"
+                android:textSize="8dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

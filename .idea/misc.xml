@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_cata.xml" value="0.1296875" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_con.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_man_topic_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_novel_main.xml" value="0.1296875" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/activity_novel_topic.xml" value="0.20923913043478262" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/cata_item.xml" value="0.1296875" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/newmanlayout.xml" value="0.1983695652173913" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/layout/novel_item.xml" value="0.23369565217391305" />
+        <entry key="..\:/AndroidStudioProjects/ZZReader/app/src/main/res/xml/network_security_config.xml" value="0.121875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
