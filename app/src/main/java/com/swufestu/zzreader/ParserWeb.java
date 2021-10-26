@@ -86,9 +86,9 @@ public class ParserWeb {
             if(!(select3.attr("href").equals("javascript:void(0)"))){
                 pre=select3.attr("href");
             }
-            Elements select4=elements.select("a.nextchapter");
-            if(select4!=null){
-                next=select4.first().attr("href");
+            Element select4=elements.select("a.nextchapter").first();
+            if(!(select4.attr("href").equals("javascript:void(0)"))){
+                next=select4.attr("href");
             }
             Log.i(TAG, "parser_nol: pre："+pre);
             Log.i(TAG, "parser_nol: next："+next);

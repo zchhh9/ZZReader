@@ -39,7 +39,7 @@ private GestureDetector gdd;
                 new Thread(){
                     @Override
                     public void run() {
-                        super.run();;
+                        super.run();
                         String url="http://huayu.zongheng.com/category/32.html";
                         Intent intent=new Intent(NovelTopicActivity.this,MainActivity.class);
                         intent.putExtra("firstpath",url);
